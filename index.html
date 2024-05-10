@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+            <div class="row"> 
+              <div class="col-lg-4 col-md-4 p-4 "></div>
+                 <div class="col-lg-8 col-md-8 justify-content-center mt-5 w-auto"><br><br><br>
+             <h1> Welcome To To-Do List App!</h1><br><br><br>
+                           <div id="login">
+                    <div class="justify-content-center mt-2">
+                        <div class="card shadow">
+                          <div class="card-title text-center border-bottom">
+                            <h2 class="p-3">Login Form</h2>
+                          </div>
+                          <div class="card-body">
+                            <form id="signupForm" onsubmit="return validation()" action="home.html">
+                                  <p>Please login to your account</p>
+                                  <div class="mb-4 ">
+                                <label for="username" class="form-label">Username</label>
+                                <input type="text" class="form-control" name="username" id="username" />
+                              </div>
+                              <div class="mb-4">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name=" password" id="password" />
+                              </div>
+                              <div class="mb-4">
+                                <input type="checkbox" class="form-check-input" id="remember" />
+                                <label for="remember" class="form-label">Remember Me</label>
+                              </div>
+                               <div class="mb-4">
+                                Don't have an account? <a href="signup.html" class="signuplink" >signup!</a>
+                              </div>
+                              <span id="signupError" class="error"></span>
+                                      <div class="d-grid"><br>
+                                <button type="submit"  value="submit"class="btn btn-primary">Login</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                    </div>
+              </div>
+              <script src="script.js"></script>
+                </body>
+        </html>

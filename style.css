@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1678846851807-3fab5c774d14?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    font-weight: 500;
+}
+
+.nav-item a{
+    font-size: medium;
+    padding:30px;
+    font-weight: bold;
+    color:black;
+
+}
+  .nav-item a:hover {
+    background-color:goldenrod;
+    color:brown;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  form{
+    border-radius: 20px;
+  }
+  .nav-item ul,li{
+    list-style: none;
+    color:black;
+    background-color: aquamarine;
+    border:1px dashed salmon;
+    border-radius: 5%;
+  }
+ .d-grid .btn{
+  width: auto;
+  border-radius: 20px;
+  font-weight: 700;
+ }
+ .d-grid .btn:hover{
+background-color: darkgoldenrod;
+color:black;
+ }
+ #signupError{
+  color: red;
+   }
